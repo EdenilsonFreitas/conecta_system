@@ -1,0 +1,67 @@
+CRITICAL - 2024-09-26 22:43:34 --> ErrorException: Undefined variable $data
+[Method: GET, Route: produtos/index]
+in APPPATH\Controllers\Produtos.php on line 14.
+ 1 APPPATH\Controllers\Produtos.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\conecta_system\\app\\Controllers\\Produtos.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\conecta_system\\public\\index.php')
+CRITICAL - 2024-09-26 22:43:50 --> ErrorException: Undefined variable $data
+[Method: GET, Route: produtos]
+in APPPATH\Controllers\Produtos.php on line 14.
+ 1 APPPATH\Controllers\Produtos.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\conecta_system\\app\\Controllers\\Produtos.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\conecta_system\\public\\index.php')
+CRITICAL - 2024-09-26 23:45:08 --> ErrorException: Undefined variable $produto
+[Method: GET, Route: produtos]
+in APPPATH\Views\produtos\index.php on line 26.
+ 1 APPPATH\Views\produtos\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', 'C:\\xampp\\htdocs\\conecta_system\\app\\Views\\produtos\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\conecta_system\\app\\Views\\produtos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Produtos/index', [...], true)
+ 5 APPPATH\Controllers\Produtos.php(40): view('Produtos/index', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\conecta_system\\public\\index.php')
+CRITICAL - 2024-09-26 23:56:33 --> ErrorException: Undefined array key "valor_compra"
+[Method: GET, Route: produtos]
+in APPPATH\Views\produtos\index.php on line 69.
+ 1 APPPATH\Views\produtos\index.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "valor_compra"', 'C:\\xampp\\htdocs\\conecta_system\\app\\Views\\produtos\\index.php', 69)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\conecta_system\\app\\Views\\produtos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Produtos/index', [...], true)
+ 5 APPPATH\Controllers\Produtos.php(40): view('Produtos/index', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\conecta_system\\public\\index.php')
+CRITICAL - 2024-09-26 23:57:25 --> ErrorException: Undefined array key "valor_venda"
+[Method: GET, Route: produtos]
+in APPPATH\Views\produtos\index.php on line 70.
+ 1 APPPATH\Views\produtos\index.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "valor_venda"', 'C:\\xampp\\htdocs\\conecta_system\\app\\Views\\produtos\\index.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\conecta_system\\app\\Views\\produtos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Produtos/index', [...], true)
+ 5 APPPATH\Controllers\Produtos.php(40): view('Produtos/index', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\conecta_system\\public\\index.php')
